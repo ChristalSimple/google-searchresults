@@ -231,8 +231,10 @@ a:hover
   color: #777;
 }
 
-#content
+.content
 {
+  font-family: 'Roboto', arial, sans-serif;
+  font-size: 13px;
   margin-left: 150px;
   min-width: 1055px;
 }
