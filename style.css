@@ -296,6 +296,8 @@ a:hover
 
 .text_content
 {
+  font-family: 'Roboto', arial, sans-serif;
+  font-size: 13px;
   color: #545454;
   line-height: 1.4;
 }
