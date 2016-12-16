@@ -668,7 +668,8 @@ a:hover .rel_song_name
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin-bottom: 1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #rel-song-more
@@ -819,6 +820,7 @@ a:hover .rel_city
   position: absolute;
   display: inline-block;
   color: #777;
+  text-align: left;
   font-size: 16px;
   margin-left: 15px;
   margin-top: 10px;
