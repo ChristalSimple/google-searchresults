@@ -459,7 +459,6 @@ em
 {
   border: 1px solid #c6c6c6;
   width: 366px;
-  height: 1259px;
 }
 
 #images
@@ -524,6 +523,31 @@ em
   font-size: 30px;
 }
 
+#rel-share
+{
+  float: right;
+}
+
+#rel-title-row2
+{
+  color: #777;
+  line-height: 1.24;
+  font-size: 13px;
+}
+
+#rel-link
+{
+  display: flex;
+  color: #1a0dab;
+  align-items: center;
+}
+
+#rel-text-link
+{
+  margin: 0;
+  padding: 0;
+}
+
 #rel-content
 {
   padding-left: 15px;
@@ -535,7 +559,14 @@ em
 
 .rel_cls
 {
+  padding-top: 8px;
+  padding-bottom: 8px;
   border-bottom: 1px solid #c6c6c6;
+}
+
+#rel-avail-mus
+{
+  margin-bottom: 20px;
 }
 
 #rel-avail
@@ -543,5 +574,257 @@ em
   font-size: 18px;
   color: #222;
   line-height: 1.24;
-  padding-bottom: 8px;
+  padding-top: 0px;
+}
+
+.rel_cls_link
+{
+  display: flex;
+  color: rgba(0, 0, 0, 0.87);
+  align-items: center;
+}
+
+#mus-more
+{
+  border: none;
+  padding-bottom: 0;
+}
+
+#mus-more a
+{
+  text-decoration: none;
+}
+
+#rel-descr
+{
+  margin-bottom: 24px;
+}
+
+#rel-description
+{
+  color: #222;
+  margin: 13px 0;
+}
+
+#rel-descr-born
+{
+  color: #222;
+}
+
+#rel-songs
+{
+  margin-bottom: 24px;
+}
+
+#rel-songs-title
+{
+  color: #222;
+  font-size: 18px;
+}
+
+.rel_song_cls
+{
+  display: block;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.rel_text_collumn
+{
+  display: inline-block;
+  padding-top: 6px;
+  height: 50px;
+}
+
+.rel_song_name
+{
+  display: block;
+  font-size: 14px;
+  color: #222;
+  line-height: 18px;
+  height: 24px;
+}
+
+a:hover .rel_song_name
+{
+  text-decoration: underline;
+}
+
+.rel_song_year
+{
+  display: block;
+  font-size: 13px;
+  color: #757575;
+  line-height: 18px;
+  height: 24px;
+  margin-top: -4px;
+}
+
+.rel_img_collumn
+{
+  float: right;
+  width: 101px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 1px;
+}
+
+#rel-song-more
+{
+  display: block;
+  font-size: 13px;
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
+
+#rel-song-more a
+{
+  color: #757575;
+}
+
+#rel-events
+{
+  margin-bottom: 24px;
+}
+
+#rel-events-title
+{
+  color: #222;
+  font-size: 18px;
+}
+
+.rel_event_cls
+{
+  display: block;
+  font-size: 13px;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.rel_event_cls a:hover
+{
+  text-decoration: none;
+}
+
+.rel_date_collumn
+{
+  display: inline-block;
+  margin: 6px 0;
+  width: 120px;
+}
+
+.rel_date
+{
+  display: block;
+  color: #222;
+  font-size: 14px;
+  line-height: 18px;
+  height: 24px;
+}
+
+.rel_time
+{
+  display: block;
+  color: #757575;
+  margin-top: -4px;
+  line-height: 18px;
+  height: 24px;
+}
+
+.rel_loc_collumn
+{
+  display: inline-block;
+  margin: 6px 0;
+}
+
+.rel_city
+{
+  display: block;
+  color: #222;
+  font-size: 14px;
+  line-height: 18px;
+  height: 24px;
+}
+
+a:hover .rel_city
+{
+  text-decoration: underline;
+}
+
+.rel_loc
+{
+  display: block;
+  color: #757575;
+  margin-top: -4px;
+  line-height: 18px;
+  height: 24px;
+}
+
+#rel-event-more
+{
+  display: block;
+  font-size: 13px;
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
+
+#rel-event-more a
+{
+  color: #757575;
+}
+
+#rel-profiles-title
+{
+  color: #222;
+  font-size: 18px;
+}
+
+.rel_profile_cls
+{
+  display: inline-block;
+  width: 72px;
+  margin-left: 11px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  align-items: center;
+}
+
+.rel_profile_cls a
+{
+  color: #1a0dab;
+}
+
+#rel-profile1
+{
+  margin-left: 0;
+}
+
+#rel-inf-dr-dwn
+{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#rel-dr-img
+{
+  display: inline-block;
+}
+
+#rel-dr-text
+{
+  position: absolute;
+  display: inline-block;
+  color: #777;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+#rel-inf-container a:hover
+{
+  text-decoration: none;
 }
